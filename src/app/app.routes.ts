@@ -5,6 +5,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { EmployeeComponent } from './pages/employee/employee.component';
 import { ChartComponent } from 'ng-apexcharts';
 import { Newchart2Component } from './pages/newchart2/newchart2.component';
+import { Newpage1Component } from './pages/newpage1/newpage1.component';
 
 export const routes: Routes = [
   {
@@ -37,6 +38,10 @@ export const routes: Routes = [
       {
         path: 'newchart2',
         component: Newchart2Component,
+      },
+      {
+        path: 'newpage1',
+        component: Newpage1Component,
       },
     ],
   },
