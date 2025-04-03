@@ -5,7 +5,6 @@ import { BehaviorSubject, Subject } from 'rxjs';
   providedIn: 'root',
 })
 export class MasterService {
-  constructor() {}
   onRolechange$: Subject<string> = new Subject<string>();
 
   onCLassChange: BehaviorSubject<string> = new BehaviorSubject<string>('');
